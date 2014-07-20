@@ -50,8 +50,7 @@ public class SpritesheetGenerator : MonoBehaviour {
 	}
 	// Looping code...
 	void Update() {
-		
-		// nothing required here
+		// empty
 	}
 	void createUVMap() { 
 		// Intialize output writer to file with the same name as the sprites.
@@ -68,7 +67,6 @@ public class SpritesheetGenerator : MonoBehaviour {
 		writer.WriteLine();
 		// Write the UV mappings to the text file.
 		for (int i = 0; i < textureUV.Length; i++) {
-			
 			writer.Write(textureUV[i].x);
 			writer.WriteLine();
 			writer.Write(textureUV[i].y);
