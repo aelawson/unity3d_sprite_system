@@ -46,13 +46,13 @@ public class SpritesheetGenerator : MonoBehaviour {
 		byte[] pngBytes = textureAtlas.EncodeToPNG();
 		File.WriteAllBytes(Application.dataPath + "/Resources/" + destDirPath + spriteName + "_sheet" + ".png", pngBytes);
 		// Output uv map to text file
-		createUVMap();
+		writeUVMap();
 	}
 	// Looping code...
 	void Update() {
 		// empty
 	}
-	void createUVMap() { 
+	void writeUVMap() { 
 		// Intialize output writer to file with the same name as the sprites.
 		StreamWriter writer; 
 		FileInfo t = new FileInfo(Application.dataPath + "/Resources/" + destDirPath + spriteName + ".txt"); 
