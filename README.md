@@ -1,13 +1,8 @@
 unity3d_sprite_system
 =====================
 
-!! 
+** THIS CODE IS DEPRECATED! USE THE UNITY3D OFFICIAL TOOLS! **
 
-THIS CODE IS DEPRECATED
+I originally wrote this "plug-in" for Unity3D last year. We were working on a project involving 2D sprites; at the time, the Unity Team had no 2D support so I developed this system to allow for 2D graphics. A month or so later, Unity3D released an official (and infinitely superior) set of tools for 2D sprites (doh!).
 
-The Unity Team added official support for 2D sprites in the latest version of Unity3D. You should use that now, as it's much more optimized than this code could possibly be.
-
-!!
-
-System that allows for generation and animation of sprite sheet from a source directory of images.
-
+So yeah, you shouldn't really need to use this anymore.
